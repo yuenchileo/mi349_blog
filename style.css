@@ -71,8 +71,13 @@ figure {
     width:35%;
 }
 
+#splatimg {
+    width: 75%;
+}
+
 section {
     display: flex;
+    flex-wrap: wrap;
 }
 
 article {
@@ -83,4 +88,8 @@ article {
 
 article:nth-of-type(1) {
     flex: 5;
+}
+
+@media (max-width: 400px) {
+
 }
